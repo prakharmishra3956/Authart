@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+python-multipart
+torch
+torchvision
+transformers
+pillow
+chromadb
+python-dotenv

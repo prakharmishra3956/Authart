@@ -37,3 +37,45 @@ Thumbs.db
 
 # Coverage / test output
 coverage/
+
+# ----------------------------------------------------
+# AI Engine / Python ignores
+# ----------------------------------------------------
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+ai-engine/venv/
+ai-engine/.venv/
+ai-engine/env/
+
+# Python bytecode & cache
+__pycache__/
+**/__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.coverage
+
+# Vector Database storage (ChromaDB)
+chroma_db/
+ai-engine/chroma_db/
+*.parquet
+*.sqlite3
+
+# Model weights & Hugging Face / Torch cache
+checkpoints/
+*.pt
+*.pth
+*.bin
+*.onnx
+.cache/
+huggingface/
+torch/
+
+# Sample / downloaded test images & data
+ai-engine/sample_art/
+ai-engine/data/
+ai-engine/test_output/
+
